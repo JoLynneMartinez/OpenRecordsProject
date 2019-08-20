@@ -9,6 +9,7 @@ body {
 header {
     padding: 10px 10px 20px 20px;
     text-align: left;
+    color: #0d3f67;
     background-color: #f2f4f6;
 }
 
@@ -33,7 +34,7 @@ li {
 
 li a {
     display: block;
-    color: #f2f4f6;
+    color: #0d3f67;;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -44,68 +45,53 @@ li a hover {
 }
 
 nav ul {
-    margin:0;
-    padding:0;
-    list-style:none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 #FOIA {
-  text-align:center;
-  padding:5px 10px;
-  background:#6b48ff;
-  font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 5px 10px;
+    background: #6b48ff;
+    font-family: 'Raleway', sans-serif;
 }
 
 #FOIA p {
-    margin:0;
+    margin: 0;
     padding: 15px 5px 5px 5px;
-    color:#f2f4f6;
+    color: #f2f4f6;
 }
 
-.ui.white.button {
-    text-transform: uppercase;
+.ui.huge.button {
     padding: 10px;
-    background-color white;
-    color:#f2f4f6;
+    background-color: #f2f4f6;
     box-shadow: 5px 5px #fd8e7d;
 }
 
-.ui.white.button:hover {
+.ui.huge.button:hover {
     background-color: #fd8e7d;
 }
 
 * html #FOIA {
-    height:1px;
+    height: 1px;
 }
 
-#States{
-    padding:10px;
+#custodians{
+    text-align: center;
+    padding: 15px 5px 15px 5px;
     background:#f2f4f6;
     font-family: 'Raleway', sans-serif;
 }
 
-#States p {
+#custodians p {
     margin:0;
 }
 
-#Kansas {
-    float:left;
-    width:355px;
-    padding:10px;
+#states {
+    color: #0d3f67;
     background:#f2f4f6;
-    font-family: 'Raleway', sans-serif;
-}
-
-h2 {
-    margin:0 0 1em;
-}
-
-#Missouri {
-    float:right;
-    width:355px;
-    padding:10px;
-    background:#f2f4f6;
-    font-family: 'Raleway', sans-serif;
+    padding: 15px 5px 15px 5px;
 }
 
 #OpenRecords{
