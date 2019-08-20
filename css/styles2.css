@@ -1,54 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 /* Reset */
-
-#wrap {
-    width:750px;
-    margin:0 auto;
-    background:#f2f4f6;
-    color:#0d3f67;
-}
-
-#header {
-    padding:5px 10px;
-    text-align:center;
-    background:#f2f4f6;
-}
-
-h1 {
-    margin:0;
+body {
+    font-size: 100%;
     font-family: 'Raleway', sans-serif;
 }
 
-#nav {
-    padding:5px 10px;
-    background:#1ee3cf;
-    font-family: 'Raleway', sans-serif;
-    text-align:center;
-    position:sticky;
+header {
+    padding: 10px 10px 20px 20px;
+    text-align: left;
+    background-color: #f2f4f6;
+}
+
+nav {
+    padding: 5px;
+    background: #1ee3cf;
+    text-align: right;
+    position: sticky;
     top:0;
 }
 
-nav a:hover {
-  background-color: #6b48ff;
-}
-
-#nav li {
-    display:inline;
+ul {
+    list-style-type none;
     margin:0;
     padding:0;
+    overflow: auto;
 }
 
-#nav a {
-  padding: 6px 20px;
-  display: inline-block;
-  color: #0d3f67;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 1em;
+li {
+    float: left;
 }
 
-#nav ul {
+li a {
+    display: block;
+    color: #f2f4f6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a hover {
+    background-color: #1111;
+}
+
+nav ul {
     margin:0;
     padding:0;
     list-style:none;
@@ -63,14 +58,20 @@ nav a:hover {
 
 #FOIA p {
     margin:0;
+    padding: 15px 5px 5px 5px;
     color:#f2f4f6;
-    padding: 5px;
 }
 
-#FOIA p .ui.orange.button {
+.ui.white.button {
     text-transform: uppercase;
     padding: 10px;
+    background-color white;
     color:#f2f4f6;
+    box-shadow: 5px 5px #fd8e7d;
+}
+
+.ui.white.button:hover {
+    background-color: #fd8e7d;
 }
 
 * html #FOIA {
