@@ -8,15 +8,15 @@ body {
 
 header {
     padding: 10px 10px 20px 20px;
-    text-align: left;
+    text-align: center;
     color: #0d3f67;
     background-color: #f2f4f6;
 }
 
 nav {
     padding: 5px;
-    background: #1ee3cf;
-    text-align: right;
+    background-color: #1ee3cf;
+    text-align: center;
     position: sticky;
     top:0;
 }
@@ -80,12 +80,38 @@ nav ul {
 #custodians{
     text-align: center;
     padding: 15px 5px 15px 5px;
-    background:#f2f4f6;
+    background-color: #f2f4f6;
     font-family: 'Raleway', sans-serif;
 }
 
 #custodians p {
     margin:0;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #f2f4f6;
+  color: #0d3f67;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #dff4f6;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #f2f4f6;
+  display: none;
+  overflow: hidden;
 }
 
 #states {
