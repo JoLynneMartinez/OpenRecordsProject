@@ -53,16 +53,32 @@
     </h4>
 </div>
 
-<div class="container-fluid" id="states">
-    <div class="row">
-        <div class="col">
-            <h2>Kansas</h2>
-        </div>
-        <div class="col">
-            <h2>Missouri</h2>
-        </div>
-    </div>
+<button class="accordion"><h2>Kansas</h2></button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
 </div>
+
+<button class="accordion"><h2>Missouri</h2></button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
 
 <div id="OpenRecords">
     <p>About Open Records</p>
